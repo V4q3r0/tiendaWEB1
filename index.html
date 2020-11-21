@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Logo principal"></a>
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Administración</a>
+                <a href="bodega.php">Bodega</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+        
+        <form action="agregarDatos.php" method="POST">
+            <div class="registro">
+                <h3>administración de productos</h3>
+                <input type="text" class="in1" id="in2" name="nombre" placeholder="Nombre:"> 
+                <input type="text" class="in1" id="in2" name="marca" placeholder="Marca:">
+                <br><br>
+                <input type="text" class="in1" id="in2" name="precio" placeholder="Precio:">
+                <input type="text" class="in1" id="in2" name="foto" placeholder="URL/imagen">
+                <br><br>
+                <input type="text" class="in1" id="in3" name="desc" placeholder="Descripción:">
+                <br><br><br>
+                <input type="submit" class="button" value="Registrar" name="enviar">
+            </div>
+        </form>
+        <div class="pie">
+            <footer>
+                <p>&copy; Todos los derechos reservados.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

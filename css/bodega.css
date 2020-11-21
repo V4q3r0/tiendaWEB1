@@ -1,0 +1,103 @@
+.box{
+    position: relative;
+    width: 100%;
+    top: 25%;
+    margin: auto;
+    padding-bottom: 81px;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
+}
+
+.arriba{
+    width: 20%;
+    display: inline-block;
+    background: rgb(0, 0, 0, .8);
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.nom{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.nom p{
+    text-transform: uppercase;
+    padding: 5%;
+    letter-spacing: 1px;
+}
+
+.datos{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: 50%;
+}
+
+#desc{
+    font-size: 1em;
+    margin: 6% 8%;
+    padding: 5%;
+}
+
+.valor{
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+.valor p{
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    float: right;
+    text-align: center;
+    background-color: #27ae60;
+    width: 25%;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 5%;
+}
+
+.btn a{
+    padding: 3% 5%;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ecf0f1;
+    margin: 5%;
+}
+
+.btn a:hover, #blue:hover{
+    border: solid 3px #2d3436;
+    color: #2d3436;
+}
+
+#blue{
+    background-color: #2980b9;
+    overflow: none;
+    border-radius: 10px;
+    padding: 3% 5%;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+#red{
+    background-color: #c0392b;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    border-radius: 10px;
+}
